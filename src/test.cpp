@@ -1,8 +1,4 @@
-#include <iostream> // input/output stream
-#include <math.h>
-#include <iomanip> // used to manipulate output
-#include <unistd.h>
-#include <term.h>
+#include <iostream>
 #include <list>
 #include <vector>
 
