@@ -949,7 +949,7 @@ int factorial(int a) { // factorial of a number using recursion
 // Functions declared inside a class are called member functions
 // by default functions and variables are private when declared inside a class thus only accessible by the class itself
 
-class youtubeChannel { // user-defined data type (to represent a real life object)
+/*class youtubeChannel { // user-defined data type (to represent a real life object)
 	public:
 		std::string Name;
 		std::string OwnerName;
@@ -965,5 +965,61 @@ int main() {
 	ytChannel.SubscribersCount = 5000000;
 	ytChannel.PublishedVideoTitles = {"90 days fiance Video 1", "90 days fiance Video 2", "90 days days fiance Video 3"};
 
+	return 0;
+}*/
+
+
+/*class Account {
+	public:
+		std::string Name;
+		double Balance;
+		double WithdrawAmount;
+		double DepositAmount;
+		//std::list<std::string> FamilyNames;
+};
+
+int main() {
+
+	Account acc1;
+	Account acc2;
+
+	acc1.Name = "George";
+	acc2.Name = "John";
+
+	return 0;
+}*/
+
+
+
+/*class ClassA {
+	public:
+		int x = 10;
+
+};
+
+int main() {
+
+	// 2 pointers pointing to the same object??
+	// ClassA cls1, cls2;
+	// cls2 = cls1;
+	// std::cout << cls1.x << std::endl;
+	// std::cout << cls2.x << std::endl;
+
+	//creating object cls1 and cls2, and pointing cls2 to cls1
+	// ClassA cls1, cls2;
+	// cls2 = cls1;
+	// std::cout << cls1.x << std::endl;
+	// std::cout << cls2.x << std::endl;
+
+
+
+	return 0;
+}*/
+
+
+int main() {
+
+	
+	
 	return 0;
 }
