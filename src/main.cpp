@@ -941,33 +941,6 @@ int factorial(int a) { // factorial of a number using recursion
 	return 0; // factorial of 0 and below is always 0
 }*/
 
-// OOP - represent real life objects in programming together with their attributes(properties) and behaviors(features) //
-// Class: template, blueprint to be used when we create an object from it
-// Object: an instance of a class.
-// We create a class to only specify and describe any object, and only an object created from that class allocates memory
-// variables declared inside a class are called data members
-// Functions declared inside a class are called member functions
-// by default functions and variables are private when declared inside a class thus only accessible by the class itself
-
-/*class youtubeChannel { // user-defined data type (to represent a real life object)
-	public:
-		std::string Name;
-		std::string OwnerName;
-		int SubscribersCount;
-		std::list<std::string> PublishedVideoTitles;
-};
-
-int main() {
-
-	youtubeChannel ytChannel;
-	ytChannel.Name = "CinnamonToastKen";
-	ytChannel.OwnerName = "Ken";
-	ytChannel.SubscribersCount = 5000000;
-	ytChannel.PublishedVideoTitles = {"90 days fiance Video 1", "90 days fiance Video 2", "90 days days fiance Video 3"};
-
-	return 0;
-}*/
-
 
 /*class Account {
 	public:
@@ -1016,10 +989,31 @@ int main() {
 	return 0;
 }*/
 
+// OOP - represent real life objects in programming together with their attributes(properties) and behaviors(features) //
+// Class: template, blueprint to be used when we create an object from it
+// Object: an instance of a class.
+// We create a class to only specify and describe any object, and only an object created from that class allocates memory
+// variables declared inside a class are called data members
+// Functions declared inside a class are called member functions
+// by default functions and variables are private when declared inside a class thus only accessible by the class itself
 
-int main() {
+class youtubeChannel
+{ // user-defined data type (to represent a real life object)
+public:
+	std::string Name;
+	std::string OwnerName;
+	int SubscribersCount;
+	std::list<std::string> PublishedVideoTitles;
+};
 
-	
-	
+int main()
+{
+
+	youtubeChannel ytChannel;
+	ytChannel.Name = "CinnamonToastKen";
+	ytChannel.OwnerName = "Ken";
+	ytChannel.SubscribersCount = 5000000;
+	ytChannel.PublishedVideoTitles = {"90 days fiance Video 1", "90 days fiance Video 2", "90 days days fiance Video 3"};
+
 	return 0;
 }
