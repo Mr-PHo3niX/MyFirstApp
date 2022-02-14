@@ -17,6 +17,8 @@ int main() {
 	ytChannel.OwnerName = "Ken";
 	ytChannel.SubscribersCount = 5000000;
 	ytChannel.PublishedVideoTitles = {"90 days fiance Video 1", "90 days fiance Video 2", "90 days days fiance Video 3"};
+	std::cout << "youtubeChannel" << std::endl;
+	std::cout << "YoutubeChannel" << std::endl;
 
 	return 0;
 }
